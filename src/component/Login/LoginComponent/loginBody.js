@@ -142,7 +142,7 @@ class Body extends Component {
   }
   loginFn() {
     if (this.state.account.length === 0 || this.state.password.length === 0) {
-      alert("请输入完整账户密码");
+      alert("please fill in your account and password");
       return;
     }
     const promise = fetch("https://qcw4cy.fn.thelarkcloud.com/login", {
@@ -167,7 +167,7 @@ class Body extends Component {
         //alert("成功");
         this.getIslogin();
       } else {
-        alert("密码错误或用户未注册");
+        alert("password is incorrect");
       }
       // console.log(response);
     });

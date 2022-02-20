@@ -16,7 +16,7 @@ export default function LoginHome() {
                 className="loginBtn"
                 style={localStorage.getItem("username") && { display: "none" }}
               >
-                账号密码登录
+                Login
               </button>
             </Link>
           </li>
@@ -26,7 +26,7 @@ export default function LoginHome() {
                 className="loginBtn"
                 style={localStorage.getItem("username") && { display: "none" }}
               >
-                游客浏览
+                Vistor
               </button>
             </Link>
           </li>
@@ -36,7 +36,7 @@ export default function LoginHome() {
                 className="loginBtn"
                 style={localStorage.getItem("username") && { display: "none" }}
               >
-                注册
+                Register
               </button>
             </Link>
           </li>
